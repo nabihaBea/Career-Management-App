@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WebCoursesActivity"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Become a Web Developer from Scratch"
+                    android:textSize="30dp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/hyperlink_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hyperlink_1"
+                    android:textSize="10dp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Become a Certified HTML, CSS, JavaScript Web Developer"
+                    android:textSize="30dp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/hyperlink_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hyperlink_2"
+                    android:textSize="10dp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Complete 2020 Fullstack Web Developer Course"
+                    android:textSize="30dp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/hyperlink_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hyperlink_3"
+                    android:textSize="10dp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Introduction to Web Development"
+                    android:textSize="30dp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/hyperlink_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hyperlink_4"
+                    android:textSize="10dp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

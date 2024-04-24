@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AndroidCourseActivity"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android Java Masterclass - Become an App Developer"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/hyperlinkss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hyperlink"
+                android:textSize="10dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Complete Android S + Java Developer Course™ : 2022"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/hyperlinks2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hyperlink2"
+                android:textSize="10dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android Material Design"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/hyperlinks3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hyperlink3"
+                android:textSize="10dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile Penetration Testing of Android Applications"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/hyperlinks4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hyperlink4"
+                android:textSize="10dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Complete Android Oreo Developer Course - Build 23 Apps!"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/hyperlinks5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hyperlink5"
+                android:textSize="10dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android App Development Masterclass using Kotlin"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/hyperlinks6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hyperlink6"
+                android:textSize="10dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dependency Injection in Android with Dagger 2 and Hilt"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/hyperlinks7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hyperlink7"
+                android:textSize="10dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android Architecture Masterclass"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/hyperlinks8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hyperlink8"
+                android:textSize="10dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

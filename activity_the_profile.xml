@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#3E3939"
+    tools:context=".TheProfileActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--CoverPic-->
+
+            <ImageView
+                android:id="@+id/coverIv"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="#6200EE"
+                android:scaleType="fitXY">
+
+            </ImageView>
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="100dp"
+                >
+                <ImageView
+                    android:id="@+id/profileimg"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_face_white"
+                    android:background="#2875D1">
+
+                </ImageView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#3F1997">
+                    <TextView
+                        android:id="@+id/user_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginStart="5dp"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"/>
+
+                    <TextView
+                        android:id="@+id/user_email"
+                        android:layout_width="156dp"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/white"
+
+                        android:layout_marginStart="5dp"/>
+                    <TextView
+                        android:id="@+id/user_phone"
+                        android:layout_width="156dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="5dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--RecView for the posts-->
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recview_posts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/linearLayout"/>
+
+        </RelativeLayout>
+
+
+
+
+
+</ScrollView>

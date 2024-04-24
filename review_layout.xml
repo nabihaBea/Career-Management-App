@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:padding="15dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+       >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share Your Thoughts"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+        <RatingBar
+            android:id="@+id/rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.5"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/review_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Review"
+            android:padding="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="22dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/postbtn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Post"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"/>
+            <Button
+                android:id="@+id/cancelbtn"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:padding="5dp"
+                android:text="Cancle"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="5dp"
+    app:cardBackgroundColor="#2875D1"
+    app:cardElevation="2dp"
+    app:contentPadding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/nameIV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:layout_marginStart="5dp"
+                />
+
+            <RatingBar
+                android:id="@+id/rating_barIv"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="0.5"
+                 android:layout_marginTop="7dp"
+                android:layout_marginStart="5dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:id="@+id/commentIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your Comment Here"
+                    android:textSize="18dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="5dp"
+                    />
+                <TextView
+                    android:id="@+id/timeIv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dd/MM/yyyy"
+                    android:textSize="12dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#4D5E67"
+                    android:textStyle="bold|italic"
+                    android:layout_marginStart="8dp"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

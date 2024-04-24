@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlutterActivity"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Flutter and Dart - The Complete Guide [2022 Edition]"
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        />
+                    <TextView
+                        android:id="@+id/hyperlinkx1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="10dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The Complete 2021 Flutter Development Bootcamp with Dart"
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        />
+                    <TextView
+                        android:id="@+id/hyperlinkx2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="10dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dart and Flutter | The Complete Flutter Development Course"
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        />
+                    <TextView
+                        android:id="@+id/hyperlinkx3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="10dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Flutter and Firebase: Build a Complete App for iOS and Android"
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        />
+                    <TextView
+                        android:id="@+id/hyperlinkx4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="10dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
